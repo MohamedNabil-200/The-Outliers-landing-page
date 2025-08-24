@@ -8,16 +8,16 @@ const Hero = () => {
           <img src={HeroPic} alt="Hero Picture" />
         </div>
         <div className="md:w-1/2">
-          <h1 className="text-[2em] md:text-[64px] font-extrabold mb-2 font-faro text-[#59B5A6] leading-[60px]">
+          <h1 className="text-[2em] md:text-[40px] font-extrabold mb-2 sm:ml-12 font-poppins text-[#59B5A6] leading-[60px]">
             Learn by Doing.
-            <br />
+            <br/>
             Lead by Outperforming.
           </h1>
-          <p className="text-2xl font-faro text-[#212529] py-6 mb-4 md:mb-0">
+          <p className="text-2xl font-inter text-[#212529] py-6 mb-4 md:mb-0">
             The Outliers helps teenagers learn by solving AI-powered tasks and
             getting internships at real startups.
           </p>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 sm:justify-between md:justify-start sm:mx-12 md:mx-0">
             <a
               href="/#registration"
               className="bg-black text-white rounded-2xl p-4 cursor-pointer hover:bg-[#59B5A6] transition-all ease-in-out duration-300"
