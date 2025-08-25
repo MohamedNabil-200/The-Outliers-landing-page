@@ -1,10 +1,17 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import AboutPic from "../assets/aboutPic.png";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
+
   return (
-    <section className="md:py-12 px-4">
+    <section className="md:py-12 px-4 overflow-hidden">
       <div className="container mx-auto md:flex items-center gap-6 md:h-screen md:py-6 mb-12 md:mb-0">
-        <div className="md:w-1/2 md:my-12 py-12 sm:ml-12">
+        <div className="md:w-1/2 md:my-12 py-12 sm:ml-12" data-aos="fade-right">
           <h3 className="text-[#212529] text-5xl font-bold mb-2 font-poppins">
             What is The Outliers
           </h3>
@@ -14,7 +21,7 @@ const About = () => {
             build real-world experience and future-proof skills
           </p>
         </div>
-        <div className="md:w-1/2 md:h-full h-fit flex items-center justify-center">
+        <div className="md:w-1/2 md:h-full h-fit flex items-center justify-center" data-aos="fade-left">
           <img src={AboutPic} alt="Hero Picture" />
         </div>
       </div>

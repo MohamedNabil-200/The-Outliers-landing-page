@@ -1,14 +1,22 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import HeroPic from "../assets/heroPic.png";
 
 const Hero = () => {
+
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
+
   return (
-    <section className="min-h-screen bg-[#EDFFEF] py-12 px-4">
+    <section className="min-h-screen bg-[#EDFFEF] py-12 px-4 overflow-hidden">
       <div className="container mx-auto md:flex items-center gap-6 md:h-screen md:py-6">
-        <div className="md:w-1/2 md:h-full h-fit flex items-center justify-center">
+        <div className="md:w-1/2 md:h-full h-fit flex items-center justify-center" data-aos="fade-right">
           <img src={HeroPic} alt="Hero Picture" />
         </div>
-        <div className="md:w-1/2">
-          <h1 className="text-[2em] md:text-[40px] font-extrabold mb-2 sm:ml-12 font-poppins text-[#59B5A6] leading-[60px]">
+        <div className="md:w-1/2" data-aos="fade-left">
+          <h1 className="text-[2em] md:text-[40px] font-extrabold mb-2 sm:ml-12 lg:ml-0 font-poppins text-[#59B5A6] leading-[60px]">
             Learn by Doing.
             <br/>
             Lead by Outperforming.
