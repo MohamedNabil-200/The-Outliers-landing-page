@@ -6,7 +6,7 @@ const Footer = () => {
           Want to partner with us or have a question?
           <br /> 📧{" "}
           <a
-            className="underline font-bold text-[#59B5A6]"
+            className="underline font-bold text-[#46af9f]"
             href="mailto:hello@theoutliersstartup.com"
           >
             hello@theoutliersstartup.com
