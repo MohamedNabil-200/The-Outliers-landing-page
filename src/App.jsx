@@ -40,7 +40,7 @@ const App = () => {
       <Footer />
       {backtoTop && (
         <button
-          className="fixed bottom-4 right-4 bg-[#46af9f] text-white p-3 rounded-full cursor-pointer"
+          className="fixed bottom-4 right-4 bg-[#46af9f] text-white p-3 rounded-full cursor-pointer transition-all duration-300"
           onClick={scrollUp}
         >
           <FaArrowUp />
