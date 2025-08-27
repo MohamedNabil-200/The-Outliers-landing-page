@@ -20,7 +20,7 @@ const Registration = () => {
         </h3>
         <div className="flex flex-col-reverse md:flex-row items-center gap-4">
           <div className="w-full md:w-1/2" data-aos="fade-right">
-            <p className="leading-6 text-[#212529] py-4 text-xl lg:w-3/5 mb-4">
+            <p className="leading-6 py-4 text-xl lg:w-3/5 mb-4">
               You’re not just signing up, you’re joining a squad of early
               builders who believe in making ideas real. Together, we’ll learn,
               grow, and set the standard for everyone who comes after.
@@ -28,7 +28,7 @@ const Registration = () => {
             <NavLink
               to="https://docs.google.com/forms/d/e/1FAIpQLSeujTvG6OJMo9fGdcXcpwWpVidGrr8zyzQpLjEMi22cjm-baw/viewform?usp=header"
               target="_blank"
-              className="block mt-8 w-full md:w-fit text-center lg:text-left bg-[#46af9f] text-white rounded-2xl p-4 cursor-pointer border border-[#46af9f] hover:bg-white hover:text-[#46af9f] transition-all ease-in-out duration-300"
+              className="block mt-8 w-full md:w-fit text-center lg:text-left font-medium bg-[#46af9f] text-white rounded-2xl p-4 cursor-pointer border border-[#46af9f] hover:bg-white hover:text-[#46af9f] transition-all ease-in-out duration-300"
             >
               Get early access
             </NavLink>

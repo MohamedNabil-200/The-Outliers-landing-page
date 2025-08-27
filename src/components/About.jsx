@@ -15,7 +15,7 @@ const About = () => {
           <h3 className="text-[#46af9f] text-[2em] font-bold mb-2 font-poppins text-center md:text-left">
             What is The Outliers
           </h3>
-          <p className="leading-6 text-[#212529] mb-4 py-4 text-xl">
+          <p className="leading-6 mb-4 py-4 text-xl">
             The Outliers is a future-of-work platform for teenagers. We match
             teens with AI-enhanced tasks and startup internships to help them
             build real-world experience and future-proof skills

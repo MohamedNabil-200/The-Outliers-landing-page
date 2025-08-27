@@ -12,7 +12,7 @@ const Founder = () => {
     <section className="px-4 py-12 bg-[#EDFFEF]">
       <div className="container mx-auto flex flex-col items-center justify-center">
         <h3
-          className="text-[2em] font-bold mb-2 font-poppins py-6 text-[#46af9f]"
+          className="text-[2em] font-bold mb-3 font-poppins text-[#46af9f]"
           data-aos="fade-down"
         >
           About the Founder
@@ -25,7 +25,8 @@ const Founder = () => {
               className="rounded-full w-32 h-32 object-cover"
             />
           </div>
-          <p className="leading-6 text-[#212529] py-4 text-xl lg:w-3/5 mt-8">
+          <p className="font-bold  text-2xl mt-3 font-poppins">Arwa Basha</p>
+          <p className="leading-6 py-4 text-xl lg:w-3/5 mt-4">
             A multipotentialite with a passion for initiating, creating, and
             managing people and systems. She served as the Country Manager for
             an Emirati IT firm in Egypt and graduated with distinction and
