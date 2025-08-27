@@ -15,7 +15,7 @@ const Benefits = () => {
           What we offer
         </h3>
         <div className="flex flex-col md:flex-row items-center justify-center md:justify-evenly gap-4 w-full">
-          <div className="border border-[#59B5A6] pt-4 rounded-md mb-4 md:mb-0 w-full md:w-1/4 overflow-hidden" data-aos="fade-right">
+          <div className="border border-[#59B5A6] pt-4 rounded-md mb-4 md:mb-0 w-full md:w-1/3 overflow-hidden" data-aos="fade-right">
             <h5 className="text-2xl font-extrabold text-[#59B5A6] mb-2 pl-4">
               for Teens:
             </h5>
@@ -50,7 +50,7 @@ const Benefits = () => {
               </li>
             </ul>
           </div>
-          <div className="border border-[#59B5A6] pt-4 rounded-md mb-4 md:mb-0 w-full md:w-1/4  overflow-hidden" data-aos="fade-left">
+          <div className="border border-[#59B5A6] pt-4 rounded-md mb-4 md:mb-0 w-full md:w-1/3  overflow-hidden" data-aos="fade-left">
             <h5 className="text-2xl font-extrabold text-[#59B5A6] mb-2 pl-4">
               for Startups:
             </h5>
