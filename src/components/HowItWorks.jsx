@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Join from "../assets/join.svg?react";
-import Tasks from "../assets/Tasks.svg?react";
+import Tasks from "../assets/tasks.svg?react";
 import Portfolio from "../assets/portfolios.svg?react";
 import Mentorship from "../assets/mentorship.svg?react";
 
