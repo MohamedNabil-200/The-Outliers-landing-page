@@ -20,7 +20,7 @@ const Founder = () => {
         <div className="flex flex-col items-center" data-aos="fade-up">
           <div className="rounded-full flex justify-center items-center">
             <img
-              src={FounderImg}
+              src="https://drive.google.com/file/d/1Smr737EWVld4ENtNvdoG7SQEF4BsPNMB/view"
               alt="Eng. Arwa Basha"
               className="rounded-full w-32 h-32 object-cover"
             />
